@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.main {
+	padding: 35px;
+}
+.dni-foto {
+	width: 200px;
+	height: 200px;
+}
+.main-paragraph {
+	font-size: 20px;
+}
+.map-google {
+
+}
+img {
+    width: 300px;
+    height: 150px;
+}
