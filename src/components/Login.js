@@ -41,8 +41,10 @@ class Login extends Component {
           <p>Completa los siguientes Datos porfavor:</p><br/>
           <input type="password" class="form-control" placeholder="DNI" /><br/>
           <input type="password" class="form-control" placeholder="Phone" /><br/><br/>
+          <img src="https://image.ibb.co/j0aCC7/logobike.png" alt="logobike" />
           <button onClick={this.handleLogout}>Salir</button> 
           <button onClick={() => navigateTo('pagina-3')}>siguienteeeeaaaaaaaaaaa</button>
+
         </div>
       );
     }

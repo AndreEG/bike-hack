@@ -4,15 +4,7 @@ import MyMap  from './map'
 import Login  from './Login'
 import Inscription  from './inscription'
 
-// const App = () => (
-//   <div>
-//   <Login/>
-//   <h1>tivi tivi</h1>
-//   <Inscription />
-//   <MyMap />
-  
-//   </div>
-// );
+ 
 
 
 const App = ({ paginaActual, navigateTo }) => {
