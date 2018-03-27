@@ -1,11 +1,12 @@
 import React from 'react'
 import { render } from 'react-dom'
-import MyMap  from './map'
+import Autentication from './auntentication'
+import './styles.css';
 
 
 const App = () => (
-  <div>
-  <MyMap />
+  <div className="main">
+  <Autentication/>
   </div>
 );
 export default App

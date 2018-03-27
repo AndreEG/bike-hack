@@ -12,11 +12,44 @@
 }
 .main-paragraph {
 	font-size: 20px;
+	text-align: center;
 }
 .map-google {
 
 }
 img {
-    width: 300px;
-    height: 150px;
+    width: 33vw;
+    
+}
+.width-50 {
+	width: 35vw;
+	display: inline-block;
+	height: 155px;
+}
+
+.progress {
+	height: 48px;
+	padding: 20px;
+	text-align: center;
+}
+
+.color-tranparent {
+	color: transparent;
+}
+.float-left {
+	float: left;
+}
+.margin-8 {
+	margin: 8px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.last-box {
+	height: 36vw;
+	width: 100%;
 }
