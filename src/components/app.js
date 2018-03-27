@@ -8,6 +8,7 @@ const App = () => (
   <div>
   <Login/>
   <MyMap />
+  <h1>tivi tivi</h1>
   </div>
 );
 export default Login
