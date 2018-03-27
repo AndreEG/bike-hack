@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-/* import logo from './logo.svg'; */
 import firebase from 'firebase';
-
-
-/* import './App.css'; */
 
 class Login extends Component {
 
 constructor () {
   super();
-
     this.state = {user:null}; 
-}
- componentWillMount () {
+  }
+
+  componentWillMount () {
   firebase.auth().onAuthStateChanged(user => {
     this.setState({user});
   });
 
 }
 
-  handleAuth () {
+handleAuth () {
     const provider = new firebase.auth.GoogleAuthProvider();
 
     firebase.auth().signInWithPopup(provider)
@@ -27,21 +23,29 @@ constructor () {
       .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
 
+handleLogout (){
+    firebase.auth().signOut()
+    .then(result => console.log(`${result.user.email} ha salido`))
+    .catch(error => console.log(`Error ${error.code}: ${error.message}`));
+  } 
+
   renderLoginButton(){
     if(this.state.user){
       return(
         <div>
           <img width="20" src={this.state.user.photoURL} alt={this.state.user.displayName}/>
           <p> Hola {this.state.user.displayName}!</p>
+
+             <button onClick={this.handleLogout}>Salir</button> 
         </div>
       );
     }else {
+
     return(
       <button onClick={this.handleAuth}>Login con google</button>
       );
     }
   }
-
 
   render() {
     return (
