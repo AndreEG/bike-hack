@@ -7,9 +7,9 @@ import Inscription  from './inscription'
 const App = () => (
   <div>
   <Login/>
-  <h1>tivi tivi</h1>
+{/*   <h1>tivi tivi</h1>
   <Inscription />
-  <MyMap />
+  <MyMap /> */}
   
   </div>
 );

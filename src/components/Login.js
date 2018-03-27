@@ -34,7 +34,6 @@ class Login extends Component {
         if(this.state.user){
             return(
                 <div>
-                    <img width="20" src={this.state.user.photoURL} alt={this.state.user.displayName}/>
                     <p> Hola {this.state.user.displayName}!</p>
                     <button onClick={this.handleLogout}>Salir</button> 
                 </div>
@@ -42,7 +41,10 @@ class Login extends Component {
         }
         else {
             return(
+                <div>
                 <button onClick={this.handleAuth}>Login con google</button>
+                <button>Registrate</button>
+                </div>
             );
         }
     }
@@ -51,11 +53,14 @@ class Login extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                <h1 className="App-title">React</h1>
                 </header>
                 <div className="App-intro">
                     {this.renderLoginButton()}
                 </div>
+                <img src="https://image.ibb.co/j0aCC7/logobike.png" alt="logobike" />
+              
+                
+                
         </div>
         );
     }
