@@ -1,0 +1,35 @@
+/* --------------estilos Generales--------------------- */
+
+:root {
+    --black: #000000;
+    --gray: #2B2B2B;
+    --grey: rgb(168, 235, 61);
+    --white: #ffffff;
+  }
+  
+  body{
+    color: var(--black);
+    background-color: var(--grey) !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
+
+  .Center {
+    text-align: center;
+  }
+  
+/* ---------------------fin estilos generales----------------- */
+
+/* ---------------------componente Inscription ---------------- */
+  .Inscription {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  button {
+    background-color: var(--gray) !important;
+    padding: 21px;
+    border:auto;
+
+  }
+  /*----------------- fin componente Inscription----------------*/
