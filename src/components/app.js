@@ -1,10 +1,18 @@
 import React from 'react'
+<<<<<<< HEAD
 import { connect } from 'react-redux'
 import MyMap  from './map'
 import Login  from './Login'
 import Inscription  from './inscription'
 
+import { render } from 'react-dom'
+import Autentication from './auntentication'
+import Ubication from './ubication'
+import './styles.css';
+
+
  
+
 
 
 const App = ({ paginaActual, navigateTo }) => {
@@ -41,3 +49,12 @@ export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(App);
+
+const App = () => (
+  <div className="main">
+  <Autentication/>
+  <Ubication/>
+  </div>
+);
+export default App
+
