@@ -2,13 +2,21 @@ import React, { Component } from 'react';
 /* import logo from './logo.svg'; */
 import firebase from 'firebase';
 
+
 /* import './App.css'; */
 
 class Login extends Component {
 
 constructor () {
   super();
+
     this.state = {user:null}; 
+}
+ componentWillMount () {
+  firebase.auth().onAuthStateChanged(user => {
+    this.setState({user});
+  });
+
 }
 
   handleAuth () {
@@ -19,11 +27,12 @@ constructor () {
       .catch(error => console.log(`Error ${error.code}: ${error.message}`));
   }
 
-
   renderLoginButton(){
     if(this.state.user){
       return(
         <div>
+          <img width="20" src={this.state.user.photoURL} alt={this.state.user.displayName}/>
+          <p> Hola {this.state.user.displayName}!</p>
         </div>
       );
     }else {
@@ -32,6 +41,7 @@ constructor () {
       );
     }
   }
+
 
   render() {
     return (
