@@ -1,7 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
+// import { connect } from 'react-redux';
 
 const MyMap = () => (
-  <div>holaaaa</div>)
+  <div>
+    <h1>3 vista</h1>
+    
+  </div>
+  )
 
+  
 export default MyMap;
