@@ -15,12 +15,15 @@ import Inscription  from './inscription'
 // );
 
 
-const App = ({ paginaActual,navigateTo }) => {
+const App = ({ paginaActual, navigateTo }) => {
   switch (paginaActual) {
     case 'pagina-1':
       return <Inscription
       navigateTo={navigateTo}/>
     case 'pagina-2':
+      return <Login
+      navigateTo={navigateTo}/>
+    case 'pagina-3':
       return <MyMap
       navigateTo={navigateTo}/>
     default:

@@ -8,12 +8,12 @@ import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 
 firebase.initializeApp({
-    apiKey: "AIzaSyACUMEFB5mNIE9E_oYfzC1Qg8dD80SyVwc",
-    authDomain: "hackatonbikesantiago.firebaseapp.com",
-    databaseURL: "https://hackatonbikesantiago.firebaseio.com",
-    projectId: "hackatonbikesantiago",
-    storageBucket: "hackatonbikesantiago.appspot.com",
-    messagingSenderId: "482534686193"
+  apiKey: "AIzaSyACUMEFB5mNIE9E_oYfzC1Qg8dD80SyVwc",
+  authDomain: "hackatonbikesantiago.firebaseapp.com",
+  databaseURL: "https://hackatonbikesantiago.firebaseio.com",
+  projectId: "hackatonbikesantiago",
+  storageBucket: "hackatonbikesantiago.appspot.com",
+  messagingSenderId: "482534686193"
 })
 
 const reducer=(state,action)=>{
