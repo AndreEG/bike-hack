@@ -1,20 +1,43 @@
-# HERE MAPS
+# SAN BORJA EN BICI-APP
 
-## Objetivo
-Crear una plataforma que permita a los usuarios trackear y monitorear recorridos que se realice en senderos al aire libre/outdoor, orientada a los amantes de las actividades de aventura (montañas, lagos, parques, etc.) en Perú.
+### **OBJETIVO**
+Crear una herramienta digital, que facilite la inscripción de los nuevos usuarios asi como el acceso a las bicis, las estaciones, y los tiempos de préstamos a sus usuarios.
 
-### Integrantes:
+![preview](assets/docs/splash.png)
+## Tabla de contenido
+
+1.- [RESEARCH](#research)
+
+2.- [IDEACIÓN](#ideación)
+
+3.- [FLUJO DE LA APLICACIÓN](#flujo-de-la-aplicación)
+
+4.- [DEMO](#demo)
+
+
+## 1.RESEARCH
+#### 1.1 Research Cualitativo
+##### Entrevistas a Usuarios
+
+Entrevistamos a personas que son usuarias del programa, de esta manera obtuvimos una mayor perspectiva sobre sus necesidades.
+
+[Guia de Entrevista](https://drive.google.com/open?id=17Os8dzaBTSFZMH6QHepuYRktR5VMdTaL)
+##### Entrevistas a Stakeholders
+
+Realizamos entrevistas al personal que trabaja en las estaciones, con el fin de conocer los principales problemas que enfrentan.
+
+[Guia de Entrevista](https://drive.google.com/open?id=1v3Nutu8r5T4txjRUiTrCp0kmg5zeR_O1)
+
+#### 1.2 Research Cuántitativo
+##### Benchmark 
+##### Investigación Web
+
+    
+
+ ### Integrantes:
+
 - Lilliam Haro
-- Melissa Yauri
-
-
-
-## Flujo
-
-1. La plataforma brinda el mapa del api de Google Maps.
-
-     ![splash](public/assets/images/vista.PNG)
-
-2. El primer requisito que cumple la platforma es que brinda tu ubicación al dar click al botón mi ubicación.
-
- ![splash](public/assets/images/alert.PNG)
+- Marina RH
+- Silvia 
+- Andrea Encarnación 
+- Esthefany Humpiri 
