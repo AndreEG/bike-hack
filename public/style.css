@@ -186,4 +186,28 @@
   .icoacc{
   width: 15vw;
   }
+  .color-white {
+    color: white;
+  }
+  .pd-35 {
+    padding: 35px;
+  }
+  .img {
+    width: 350px;
+  }
+  .h3 {
+    background-color: yellowgreen;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .border {
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px 20px 20px;
+  }
   /*-------------------- fin estilos Acceso-------------------- */

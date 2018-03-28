@@ -7,6 +7,7 @@ import Inscription  from './inscription'
 import Autentication from './auntentication'
 import Ubication from './ubication'
 import Acceso from './Acceso';
+import Estaciones from './estaciones'
 
 
 const App = ({ paginaActual, navigateTo }) => {
@@ -25,6 +26,9 @@ const App = ({ paginaActual, navigateTo }) => {
       navigateTo={navigateTo}/>
       case 'pagina-5':
       return <Acceso
+      navigateTo={navigateTo}/>
+    case 'pagina-6':
+      return <Estaciones
       navigateTo={navigateTo}/>
     default:
       break;
