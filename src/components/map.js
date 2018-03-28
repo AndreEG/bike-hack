@@ -25,10 +25,10 @@ class MyMap extends Component {
     if (imagePreviewUrl) {
       imagePreview = (<img src={imagePreviewUrl} />);
     } else {
-      imagePreview = (<div className="previewText">Please select an Image for Preview</div>);
+      imagePreview = (<div className="previewText"><span className="text-img">Please select an Image for Preview</span></div>);
     }
     return (
-      <div className="width-50 float-left margin-8" >
+      <div className="width-50 float-left margin-6" >
       <p className="text-center"></p>
 
         <div>
