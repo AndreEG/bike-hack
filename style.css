@@ -1,0 +1,246 @@
+/* --------------estilos Generales--------------------- */
+
+:root {
+    --black: #000000;
+    --gray: #2B2B2B;
+    --grey: #72AC10;
+    --white: #ffffff;
+    --sky:#2ec0b9;
+  }
+  
+  body{
+    color: var(--black);
+    background-color: var(--sky) !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#fff;
+  }
+
+  .Center {
+    text-align: center;
+  }
+
+  .white {
+    color: white;
+  }
+  
+/* ---------------------fin estilos generales----------------- */
+
+/* ---------------------componente Inscription ---------------- */
+  .Inscription {
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  button {
+    background-color: var(--grey);
+    padding: 5px;
+    border-radius: 10px;
+    margin:3%;
+
+  }
+  /*----------------- fin componente Inscription----------------*/
+  /*------------------estilos de Map--------------------------- */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    padding: 35px;
+    /*background: #2FC2BA;*/
+    /*color: white;*/
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .dni-foto {
+    width: 200px;
+    height: 200px;
+  }
+  .main-paragraph {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  .map-google {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 45px
+  }
+
+  img {
+    width: 36vw;
+      
+  }
+  .width-50 {
+    width: 35vw;
+    display: inline-block;
+    height: 155px;
+  }
+  
+  .progress {
+    height: 48px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--sky);
+  }
+  
+  .color-tranparent {
+    color: transparent;
+  }
+  .float-left {
+    float: left;
+  }
+  .margin-8 {
+    margin: 8px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .last-box {
+    height: 36vw;
+    width: 100%;
+  }
+  .float-rigth{
+    float: right;
+  }
+  .mg-10 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .display-block {
+    display: block;
+  }
+  .input {
+    border: none;
+    border-radius: 5px; 
+  }
+  .heigth-100 {
+    height: 100vh;
+    width: 100%;
+  }
+  .verde-agua {
+    background: rgb(47, 194, 186);
+  }
+  .btn-login {
+    background: #72AC10;
+    padding:0.6em;
+    display:block;
+    margin:auto;
+    margin-top: 0.7em;
+    width: 10em;
+    font-size:20px;
+  }
+  .bckg-login {
+    background-image: url('assets/images/bici-bckg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .logo-bike {
+    position:relative;
+    top:25%;
+    background-color: #fff;
+    /* width:60vh; */
+    height:25vh;
+  }
+  .logo-height {
+    height:100%;
+    width:auto;
+  }
+  .wrapper-buttons {
+    position:relative;
+    top:45%;
+  }
+
+  .reg-1{
+    border: 2px solid white;
+    background-color: var(--sky);
+    color: #fff;
+  }
+
+  .reg-1::-webkit-input-placeholder {
+    color: #fff;
+ }
+  /*-------------------- fin estilos Map-------------------- */
+
+  /*-------------------- fin estilos Map-------------------- */
+
+  /* -----------------estilos marina------------------------ */
+.Codigo {
+    width: 100%;
+    height: 60px;
+    background:rgb(133, 223, 16);
+    color:white;
+    font-weight: bolder;
+}
+ /*-------------------- Estilos de Acceso-------------------- */
+  .btn-acc{
+    background: #ffffff !important;
+    border: 2px solid rgb(168, 235, 61);
+  }
+  .imgacc1{
+  width: 40vw;
+  height: 20vh;
+  }
+
+  .imgacc2 {
+  width: 30vw;
+  height: 22vh;
+  }
+  .icoacc{
+  width: 15vw;
+  }
+  .color-white {
+    color: white;
+  }
+  .pd-35 {
+    padding: 35px;
+  }
+  .img {
+    width: 350px;
+  }
+  .h3 {
+    background-color: yellowgreen;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .border {
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px 20px 20px;
+  }
+  /*-------------------- fin estilos Acceso-------------------- */
+  .previewText {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 104px;
+  }
+  .width-50 {
+    width: 50vw;
+    display: inline-block;
+    height: 193px;
+}
+
+.text-img {
+  font-size: 14px;
+  color:white;
+  text-align: center;
+
+}
+.color-black {
+  color: black;
+}
