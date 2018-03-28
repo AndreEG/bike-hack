@@ -4,8 +4,8 @@ import React from 'react'
 const Acceso = () => (
 
   <div className="Center">
-  
-    <p className="text-center">Tu código: SB-1421</p>
+     <br/>
+    <h3 className="text-center white">Tu código: SB-1421</h3><br/><br/><br/>
     <button className="btn-acc imgacc1">Mi tiempo <img className="icoacc" src="https://image.ibb.co/bUf1qS/reloj.png" alt="reloj" /></button>
     <br/>
     <button className="btn-acc imgacc2">Mapa <img className="icoacc"  src="https://image.ibb.co/cPhsx7/mapa.png" alt="mapa" /></button>

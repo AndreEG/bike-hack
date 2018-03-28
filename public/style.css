@@ -18,6 +18,10 @@
   .Center {
     text-align: center;
   }
+
+  .white {
+    color: white;
+  }
   
 /* ---------------------fin estilos generales----------------- */
 
@@ -138,15 +142,16 @@
     background: #ffffff !important;
     border: 2px solid rgb(168, 235, 61);
   }
-.imgacc1{
+  .imgacc1{
   width: 40vw;
-  height: 30vh;
-}
-.imgacc2{
-  width: 20vw;
-  height: 30vh;
-}
-.icoacc{
-  width: 10vw;
-}
+  height: 20vh;
+  }
+
+  .imgacc2 {
+  width: 30vw;
+  height: 22vh;
+  }
+  .icoacc{
+  width: 15vw;
+  }
   /*-------------------- fin estilos Acceso-------------------- */
