@@ -3,16 +3,17 @@
 :root {
     --black: #000000;
     --gray: #2B2B2B;
-    --grey: rgb(168, 235, 61);
+    --grey: #72AC10;
     --white: #ffffff;
-    --sky:rgb(48, 231, 216);
+    --sky:#2ec0b9;
   }
   
   body{
     color: var(--black);
     background-color: var(--sky) !important;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    color:#fff;
   }
 
   .Center {
@@ -120,7 +121,36 @@
     width: 100%;
   }
   .verde-agua {
-    background: #2FC2BA;
+    background: rgb(47, 194, 186);
   }
-
+  .btn-login {
+    background: #72AC10;
+    padding:0.6em;
+    display:block;
+    margin:auto;
+    margin-top: 0.7em;
+    width: 10em;
+    font-size:20px;
+  }
+  .bckg-login {
+    background-image: url('assets/images/bici-bckg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .logo-bike {
+    position:relative;
+    top:25%;
+    background-color: #fff;
+    /* width:60vh; */
+    height:25vh;
+  }
+  .logo-height {
+    height:100%;
+    width:auto;
+  }
+  .wrapper-buttons {
+    position:relative;
+    top:45%;
+  }
   /*-------------------- fin estilos Map-------------------- */
