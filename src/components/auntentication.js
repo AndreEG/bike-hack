@@ -5,8 +5,8 @@ import { connect } from 'react-redux';
 
 const Autentication = ({navigateTo}) => (
   <div className="heigth-100">
-  <div className="progress "> 1 - 2 - 3</div>
-  <p className="main-paragraph" >Para nosotros es importante tu seguidad, <br/> Completa tu inscripción con lo siguiente</p>
+  <div className="progress"> 1 - 2 - 3</div>
+  <p className="main-paragraph" >Para nosotros es importante tu seguidad, completa tu inscripción con lo siguiente</p>
   <MyMap/>
   <MyMap/>
   <div className="flex last-box">

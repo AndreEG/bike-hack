@@ -58,8 +58,9 @@
     height: 200px;
   }
   .main-paragraph {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+    padding: 0 40px;
   }
   .map-google {
   height: 200px;
@@ -81,6 +82,7 @@
     height: 48px;
     padding: 20px;
     text-align: center;
+    background-color: var(--sky);
   }
   
   .color-tranparent {
@@ -157,6 +159,16 @@
     position:relative;
     top:45%;
   }
+
+  .reg-1{
+    border: 2px solid white;
+    background-color: var(--sky);
+    color: #fff;
+  }
+
+  .reg-1::-webkit-input-placeholder {
+    color: #fff;
+ }
   /*-------------------- fin estilos Map-------------------- */
 
   /*-------------------- fin estilos Map-------------------- */
