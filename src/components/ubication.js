@@ -33,8 +33,8 @@ const Ubication = ({navigateTo}) => (
           </button>
         </div>
         <div className="modal-body Center">
-          <h1 className="modal-title Center" id="exampleModalLabel">Felicidades!!</h1><br/>
-          <h3>Completaste todos los pasos tu codigo es:</h3>
+          <h1 className="modal-title Center color-black" id="exampleModalLabel">Felicidades!!</h1><br/>
+          <h3 className="color-black">Completaste todos los pasos tu codigo es:</h3>
           <div className="Codigo">
             <h3>SB-1421</h3>
           </div><br/>
