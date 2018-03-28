@@ -50,10 +50,14 @@ class Login extends Component {
     }
     else {
       return(
-        <div className="Center">
-          <img src="https://image.ibb.co/j0aCC7/logobike.png" alt="logobike" /><br/>
-          <button className="btn" onClick={this.handleAuth}>LOGIN CON GMAIL</button>
-          <button className="btn" onClick={() => this.props.navigateTo('pagina-2')}>REGISTRATE</button> 
+        <div className="Center bckg-login">
+          <div className="logo-bike">
+            <img className="logo-height" src="https://image.ibb.co/j0aCC7/logobike.png" alt="logobike" /><br/>
+          </div>
+          <div className="wrapper-buttons">
+          <button className="btn btn-login" onClick={this.handleAuth}>Soy Usuario</button>
+          <button className="btn btn-login" onClick={() => this.props.navigateTo('pagina-2')}>Soy Nuevo</button> 
+          </div>
         </div>
       );
     }
