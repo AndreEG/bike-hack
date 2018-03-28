@@ -51,9 +51,27 @@ ANÁLISIS COMPARATIVO
 
 ### 2.2 Problem Statement
 
+* Jaime necesita poder renovar el tiempo de uso de una bicicleta sin ir a una estación para ahorrar tiempo.
+* Jaime necesita poder pasear en bicicleta con un acompañante para evitar tener que usar carro cuando alguien lo visite.
+* Jaime necesitaba poder hacer un registro sencillo y sin salir de su hogar para no perder tiempo.
+* Jaime necesita saber cuanto tiempo de uso le queda para poder renovar su tiempo.
+* Jaime necesita saber cuales son las estaciones más cercanas para saber donde dejará la bicicleta.
+
 ### 2.3 HMW
 
+* HMW renovar el tiempo para uso de bicicletas de manera más sencilla.
+* HMW hacer para poder hacer uso del servicio con un acompañante.
+* HMW que el registro sea más sencillo.
+* HMW para indicar el tiempo restante.
+* HMW para mostrar las estaciones.
+
 ### 2.4 What if
+
+* What if no tuviera que renovar el tiempo.
+* What if se le daría más bicicletas a personas acompañadas.
+* What if no necesita registrarse.
+* What if no hay tiempo.
+* What if las estaciones están muy cerca.
 
 ### 2.5 Journey Maps
 
@@ -76,6 +94,16 @@ ANÁLISIS COMPARATIVO
 ### 3.2 Priorización 
 
 ![priorizacion](assets/docs/priorizacion.png)
+
+### 3.3 MVP
+
+Se decidió usar una app que contenga las siguientes funcionalidades:
+*Registro sencillo y digital (debe incluir DNI, una foto actual y algo que garantice su ubicación real)
+*Cronómetro
+*Renovar tiempo
+*Garantizar amigo
+*Mapa de estaciones
+
 
 ### Integrantes:
 
