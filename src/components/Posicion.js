@@ -9,34 +9,34 @@ constructor(props) {
     this.onMyPos = this.onMyPos.bind(this);
   }
 
-onMyPos() {
-  this.search();
-}
+  onMyPos() {
+    this.search();
+  }
 
-search() {
+  search() {
   //console.log('funciona!!')
-        if (navigator && navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition((position) => {
-                const coords = position.coords;
-                console.log(coords)
-                let lat = coords.latitude;
-                let lng = coords.longitude
-                var geocoder = new google.maps.Geocoder();
-                var latlng = new google.maps.LatLng(lat, lng);
-                geocoder.geocode({'location': latlng}, function(results, status) {
-                  if (status === google.maps.GeocoderStatus.OK) {
-                  // ubicacion más exacta
-                  let myUbicationEx = results[0].formatted_address;
-                  // Forma corta
-                  let myUbication = results[1].formatted_address;
-                  alert('Tu ubicación actual es: ' + myUbicationEx);
-                  } else {
-                  alert('ocurrio un error inesperado');
-                 }
-              });
-            })
-          }
-        }
+    if (navigator && navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const coords = position.coords;
+          console.log(coords)
+          let lat = coords.latitude;
+          let lng = coords.longitude
+          var geocoder = new google.maps.Geocoder();
+          var latlng = new google.maps.LatLng(lat, lng);
+          geocoder.geocode({'location': latlng}, function(results, status) {
+            if (status === google.maps.GeocoderStatus.OK) {
+            // ubicacion más exacta
+            let myUbicationEx = results[0].formatted_address;
+            // Forma corta
+            let myUbication = results[1].formatted_address;
+            alert('Tu ubicación actual es: ' + myUbicationEx);
+            } else {
+            alert('ocurrio un error inesperado');
+            }
+          });
+        })
+      }
+    }
 
   render() {
     let {imagePreviewUrl} = this.state;
