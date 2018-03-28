@@ -19,6 +19,10 @@
   .Center {
     text-align: center;
   }
+
+  .white {
+    color: white;
+  }
   
 /* ---------------------fin estilos generales----------------- */
 
@@ -29,7 +33,7 @@
   }
 
   button {
-    background-color: var(--grey) !important;
+    background-color: var(--grey);
     padding: 5px;
     border-radius: 10px;
     margin:3%;
@@ -154,3 +158,32 @@
     top:45%;
   }
   /*-------------------- fin estilos Map-------------------- */
+
+  /*-------------------- fin estilos Map-------------------- */
+
+  /* -----------------estilos marina------------------------ */
+.Codigo {
+    width: 100%;
+    height: 60px;
+    background:rgb(133, 223, 16);
+    color:white;
+    font-weight: bolder;
+}
+ /*-------------------- Estilos de Acceso-------------------- */
+  .btn-acc{
+    background: #ffffff !important;
+    border: 2px solid rgb(168, 235, 61);
+  }
+  .imgacc1{
+  width: 40vw;
+  height: 20vh;
+  }
+
+  .imgacc2 {
+  width: 30vw;
+  height: 22vh;
+  }
+  .icoacc{
+  width: 15vw;
+  }
+  /*-------------------- fin estilos Acceso-------------------- */
