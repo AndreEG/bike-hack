@@ -1,18 +1,21 @@
 # SAN BORJA EN BICI-APP
 
+![logo](assets/docs/logor.png)
+
 ### **OBJETIVO**
 Crear una herramienta digital, que facilite la inscripción de los nuevos usuarios asi como el acceso a las bicis, las estaciones, y los tiempos de préstamos a sus usuarios.
 
-![preview](assets/docs/splash.png)
 ## Tabla de contenido
 
 1.- [RESEARCH](#research)
 
-2.- [IDEACIÓN](#ideación)
+2.- [SÍNTESIS](#sintesis)
 
-3.- [FLUJO DE LA APLICACIÓN](#flujo-de-la-aplicación)
+3.- [IDEACIÓN](#ideación)
 
-4.- [DEMO](#demo)
+4.- [FLUJO DE LA APLICACIÓN](#flujo-de-la-aplicación)
+
+5.- [DEMO](#demo)
 
 
 ## 1.RESEARCH
@@ -40,12 +43,41 @@ ANÁLISIS COMPARATIVO
 
 ![](assets/docs/cuadro.PNG) 
 
+## 2.SÍNTESIS
 
+### 2.1 User Persona
 
-## 2.IDEACIÓN
-    
+![user persona](assets/docs/userp.png)
 
- ### Integrantes:
+### 2.2 Problem Statement
+
+### 2.3 HMW
+
+### 2.4 What if
+
+### 2.5 Journey Maps
+
+![journey maps](assets/docs/journeymap-01.png)
+
+![journey maps](assets/docs/journeymap-02.png)
+
+## 3.IDEACIÓN
+
+### 3.1 Feature List
+
+* Registro sencillo y digital (debe incluir DNI, una foto actual y algo que garantice su ubicación real)
+* Cronómetro
+* Renovar tiempo
+* Solicitud de bicicleta vía app
+* Notificaciones de tiempo
+* Garantizar amigo
+* Mapa de estaciones
+
+### 3.2 Priorización 
+
+![priorizacion](assets/docs/priorizacion.png)
+
+### Integrantes:
 
 - Lilliam Haro
 - Marina Rodriguez
