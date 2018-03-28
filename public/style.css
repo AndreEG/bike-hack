@@ -57,7 +57,7 @@
     height: 200px;
   }
   .main-paragraph {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
   }
   .map-google {
@@ -155,3 +155,20 @@
   width: 15vw;
   }
   /*-------------------- fin estilos Acceso-------------------- */
+  .previewText {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 104px;
+  }
+  .width-50 {
+    width: 50vw;
+    display: inline-block;
+    height: 193px;
+}
+
+.text-img {
+  font-size: 14px;
+  color:white;
+  text-align: center;
+}
