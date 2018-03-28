@@ -35,34 +35,38 @@ class Login extends Component {
     if(this.state.user){
       return(
         <div>
-          <img width="20" src={this.state.user.photoURL} alt={this.state.user.displayName}/>
           <h1>Bienvenida </h1>
           <h2> {this.state.user.displayName}!</h2>
+          <img width="20" src={this.state.user.photoURL} alt={this.state.user.displayName}/><br/>
           <p>Completa los siguientes Datos porfavor:</p><br/>
-          <input type="password" class="form-control" placeholder="DNI" /><br/>
-          <input type="password" class="form-control" placeholder="Phone" /><br/><br/>
-          <img src="https://image.ibb.co/j0aCC7/logobike.png" alt="logobike" />
-          <button onClick={this.handleLogout}>Salir</button> 
-          <button onClick={() => navigateTo('pagina-3')}>siguienteeeeaaaaaaaaaaa</button>
+          <input type="password" className="form-control" placeholder="DNI" /><br/>
+          <input type="password" className="form-control" placeholder="Phone" /><br/><br/>
+          
+          <button onClick={this.handleLogout}>SALIR</button> 
+          <button onClick={() => navigateTo('pagina-3')}>SIGUIENTE</button>
 
         </div>
       );
     }
     else {
       return(
-        <button onClick={this.handleAuth}>Login con google</button> 
+        <div className="Center">
+          <img src="https://image.ibb.co/j0aCC7/logobike.png" alt="logobike" /><br/>
+          <button className="btn" onClick={this.handleAuth}>LOGIN CON GMAIL</button>
+          <button className="btn" onClick={() => this.props.navigateTo('pagina-2')}>REGISTRATE</button> 
+        </div>
       );
     }
   }
 
-  render() {
+  render(navigateTo) {
     return (
-      <div className="App">
+      <div className="App Center">
         <header className="App-header">
         </header>
         <div className="App-intro">
             {this.renderLoginButton(this.props.navigateTo)}
-        </div>     
+        </div> 
       </div>
     );
   }

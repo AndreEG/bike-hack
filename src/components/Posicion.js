@@ -1,10 +1,8 @@
  
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import './styles.css';
+
 class Posicion extends Component {
-
-
 constructor(props) {
   super(props);
     this.state = {file: '',imagePreviewUrl: ''};

@@ -5,11 +5,12 @@
     --gray: #2B2B2B;
     --grey: rgb(168, 235, 61);
     --white: #ffffff;
+    --sky:rgb(48, 231, 216);
   }
   
   body{
     color: var(--black);
-    background-color: var(--grey) !important;
+    background-color: var(--sky) !important;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
   }
@@ -27,9 +28,99 @@
   }
 
   button {
-    background-color: var(--gray) !important;
-    padding: 21px;
-    border:auto;
+    background-color: var(--grey) !important;
+    padding: 5px;
+    border-radius: 10px;
+    margin:3%;
 
   }
   /*----------------- fin componente Inscription----------------*/
+  /*------------------estilos de Map--------------------------- */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    padding: 35px;
+    /*background: #2FC2BA;*/
+    /*color: white;*/
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .dni-foto {
+    width: 200px;
+    height: 200px;
+  }
+  .main-paragraph {
+    font-size: 20px;
+    text-align: center;
+  }
+  .map-google {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 45px
+  }
+
+  img {
+    width: 36vw;
+      
+  }
+  .width-50 {
+    width: 35vw;
+    display: inline-block;
+    height: 155px;
+  }
+  
+  .progress {
+    height: 48px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .color-tranparent {
+    color: transparent;
+  }
+  .float-left {
+    float: left;
+  }
+  .margin-8 {
+    margin: 8px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .last-box {
+    height: 36vw;
+    width: 100%;
+  }
+  .float-rigth{
+    float: right;
+  }
+  .mg-10 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .display-block {
+    display: block;
+  }
+  .input {
+    border: none;
+    border-radius: 5px; 
+  }
+  .heigth-100 {
+    height: 100vh;
+    width: 100%;
+  }
+  .verde-agua {
+    background: #2FC2BA;
+  }
+
+  /*-------------------- fin estilos Map-------------------- */

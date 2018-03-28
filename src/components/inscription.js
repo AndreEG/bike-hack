@@ -5,11 +5,12 @@ import { connect } from 'react-redux';
     <div className="Inscription Center">
       <h1>¡Bienvenidos(a)</h1>
       <p>Para ser parte de nuetra comunidad completa los siguientes datos por favor! </p><br/>
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Name"/><br/>
-      <input type="password" class="form-control" placeholder="DNI" /><br/>
-      <input type="password" class="form-control" placeholder="Phone" /><br/>
+      <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Name"/><br/>
+      <input type="password" className="form-control" placeholder="DNI" /><br/>
+      <input type="password" className="form-control" placeholder="Phone" /><br/>
       <div className="Center">
-        <button  onClick={() => navigateTo('pagina-2')}>siguiente</button><br/>
+        <button className="btn"  onClick={() => navigateTo('pagina-1')}>REGRESAR</button>
+        <button  className="btn" onClick={() => navigateTo('pagina-3')}>SIGUIENTE</button><br/>
       </div>
     </div>
   )

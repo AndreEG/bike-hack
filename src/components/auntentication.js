@@ -1,9 +1,9 @@
 import React from 'react'
 import MyMap from './map'
-import './styles.css';
+import { connect } from 'react-redux';
 
 
-const Autentication = () => (
+const Autentication = ({navigateTo}) => (
   <div className="heigth-100">
   <div className="progress "> 1 - 2 - 3</div>
   <p className="main-paragraph" >Para nosotros es importante tu seguidad, <br/> Completa tu inscripción con lo siguiente</p>
@@ -12,8 +12,22 @@ const Autentication = () => (
   <div className="flex last-box">
   <MyMap/>
   </div>
-  <button className=" btn float-rigth">Siguiente</button>
-  
+  <div className="Center">
+    <button className="btn" onClick={() => navigateTo('pagina-2')}>REGRESAR</button>
+    <button className="btn" onClick={() => navigateTo('pagina-4')}>SIGUIENTE</button><br/>
+  </div>
   </div>
 );
-export default Autentication
+export default connect(
+  (state) => ({
+
+  }),
+  (dispatch) => ({
+    navigateTo: (pagina) => {
+      dispatch({
+        type: 'NAVIGATE_TO',
+        pagina
+      })
+    }
+  })
+)(Autentication);
