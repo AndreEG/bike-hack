@@ -28,7 +28,7 @@
   }
 
   button {
-    background-color: var(--grey) !important;
+    background-color: var(--grey);
     padding: 5px;
     border-radius: 10px;
     margin:3%;
@@ -125,6 +125,7 @@
 
   /*-------------------- fin estilos Map-------------------- */
 
+<<<<<<< HEAD
   /* -----------------estilos marina------------------------ */
 .Codigo {
     width: 100%;
@@ -133,3 +134,22 @@
     color:white;
     font-weight: bolder;
 }
+=======
+ /*-------------------- Estilos de Acceso-------------------- */
+  .btn-acc{
+    background: #ffffff !important;
+    border: 2px solid rgb(168, 235, 61);
+  }
+.imgacc1{
+  width: 40vw;
+  height: 30vh;
+}
+.imgacc2{
+  width: 20vw;
+  height: 30vh;
+}
+.icoacc{
+  width: 10vw;
+}
+  /*-------------------- fin estilos Acceso-------------------- */
+>>>>>>> 07a1674df627b3fdea485815b7fd29eca52a4ff4

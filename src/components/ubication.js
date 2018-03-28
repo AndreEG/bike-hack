@@ -16,6 +16,7 @@ const Ubication = ({navigateTo}) => (
   <div className="Center">
     <button className="btn">REGRESAR</button>
     <button className="btn" data-toggle="modal" data-target="#exampleModal">FINALIZAR</button>
+
   </div>
   <br/>
   <br/>

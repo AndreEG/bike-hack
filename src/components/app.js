@@ -6,7 +6,7 @@ import Login  from './Login'
 import Inscription  from './inscription'
 import Autentication from './auntentication'
 import Ubication from './ubication'
-import Acceso from './acceso'
+import Acceso from './Acceso';
 
 
 const App = ({ paginaActual, navigateTo }) => {
@@ -23,7 +23,7 @@ const App = ({ paginaActual, navigateTo }) => {
     case 'pagina-4':
       return <Ubication
       navigateTo={navigateTo}/>
-    case 'pagina-5':
+      case 'pagina-5':
       return <Acceso
       navigateTo={navigateTo}/>
     default:
