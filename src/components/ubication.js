@@ -1,8 +1,10 @@
 import React from 'react'
 import Posicion from './Posicion'
 
+import { connect } from 'react-redux';
 
-const Ubication = () => (
+
+const Ubication = ({navigateTo}) => (
   <div className="heigth-100">
   <div className="progress"> 1 - 2 - 3</div>
   <p className="main-paragraph">Finalmente envianos tu ubicación</p>
@@ -14,7 +16,8 @@ const Ubication = () => (
   
   <div className="Center">
     <button className="btn">REGRESAR</button>
-    <button className="btn">FINALIZAR</button>
+    <button className="btn"  onClick={() => navigateTo('pagina-5')}>FINALIZAR</button>
+
   </div>
   <br/>
   <br/>
@@ -22,4 +25,16 @@ const Ubication = () => (
   </div>
  
 );
-export default Ubication
+export default connect(
+  (state) => ({
+
+  }),
+  (dispatch) => ({
+    navigateTo: (pagina) => {
+      dispatch({
+        type: 'NAVIGATE_TO',
+        pagina
+      })
+    }
+  })
+)(Ubication);
