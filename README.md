@@ -48,7 +48,7 @@ ANÁLISIS COMPARATIVO
  ### Integrantes:
 
 - Lilliam Haro
-- Marina RH
-- Silvia 
+- Marina Rodriguez
+- Silvia Fuentes
 - Andrea Encarnación 
 - Esthefany Humpiri 
