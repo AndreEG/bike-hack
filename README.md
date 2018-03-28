@@ -30,9 +30,17 @@ Realizamos entrevistas al personal que trabaja en las estaciones, con el fin de 
 
 #### 1.2 Research Cuántitativo
 ##### Benchmark 
+
 Pudimos encontrar servicios similares en Chile y Colombia.
+
 ![logo](assets/docs/benchmark.png)
 ![logo](assets/docs/benchmark02.PNG)
+
+ANÁLISIS COMPARATIVO
+
+![](assets/docs/cuadro.PNG) 
+
+
 
 ## 2.IDEACIÓN
     
