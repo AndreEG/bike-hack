@@ -2,37 +2,24 @@
 
 ![logo](assets/docs/logor.png)
 
-### **OBJETIVO**
+## **OBJETIVO**
 Crear una herramienta digital, que facilite la inscripción de los nuevos usuarios asi como el acceso a las bicis, las estaciones, y los tiempos de préstamos a sus usuarios.
 
-## Tabla de contenido
-
-1.- [RESEARCH](#research)
-
-2.- [SÍNTESIS](#sintesis)
-
-3.- [IDEACIÓN](#ideación)
-
-4.- [FLUJO DE LA APLICACIÓN](#flujo-de-la-aplicación)
-
-5.- [DEMO](#demo)
-
-
 ## 1.RESEARCH
-#### 1.1 Research Cualitativo
-##### Entrevistas a Usuarios
+### 1.1 Research Cualitativo
+#### Entrevistas a Usuarios
 
 Entrevistamos a personas que son usuarias del programa, de esta manera obtuvimos una mayor perspectiva sobre sus necesidades.
 
 [Guia de Entrevista](https://drive.google.com/open?id=17Os8dzaBTSFZMH6QHepuYRktR5VMdTaL)
-##### Entrevistas a Stakeholders
+#### Entrevistas a Stakeholders
 
 Realizamos entrevistas al personal que trabaja en las estaciones, con el fin de conocer los principales problemas que enfrentan.
 
 [Guia de Entrevista](https://drive.google.com/open?id=1v3Nutu8r5T4txjRUiTrCp0kmg5zeR_O1)
 
-#### 1.2 Research Cuántitativo
-##### Benchmark 
+### 1.2 Research Cuántitativo
+#### Benchmark 
 
 Pudimos encontrar servicios similares en Chile y Colombia.
 
@@ -104,6 +91,11 @@ Se decidió usar una app que contenga las siguientes funcionalidades:
 *Garantizar amigo
 *Mapa de estaciones
 
+## 4.PROTOTIPADO
+
+![priorizacion](assets/docs/proto.png)
+
+[Prototipo final](#)
 
 ### Integrantes:
 
