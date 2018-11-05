@@ -1,7 +1,7 @@
 # San Borja en Bici
 El programa San Borja en Bici busca crear una herramienta digital, que facilite la inscripción de los nuevos usuarios, así como el acceso a las bicis, las estaciones, y los tiempos de préstamos de las bicis. 
 
-![image](![image](https://user-images.githubusercontent.com/32310867/48034026-a998b200-e12b-11e8-9e1e-729b35b37f8e.png)
+![image](https://user-images.githubusercontent.com/32310867/48034026-a998b200-e12b-11e8-9e1e-729b35b37f8e.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
