@@ -1,4 +1,12 @@
-# SAN BORJA EN BICI-APP
+# San Borja en Bici
+El programa San Borja en Bici busca crear una herramienta digital, que facilite la inscripción de los nuevos usuarios, así como el acceso a las bicis, las estaciones, y los tiempos de préstamos de las bicis. 
+
+![image](assets/docs/logor.png)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+## SAN BORJA EN BICI-APP
 
 ![logo](assets/docs/logor.png)
 
