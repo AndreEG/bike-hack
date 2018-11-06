@@ -7,6 +7,7 @@ San Borja en Bici busca crear una herramienta digital, que facilite la inscripci
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
 
+
 ## SAN BORJA EN BICI-APP
 
 ![logo](assets/docs/logor.png)
