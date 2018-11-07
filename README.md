@@ -1,5 +1,4 @@
 # San Borja en Bici
-
 San Borja en Bici busca crear una herramienta digital, que facilite la inscripción de los nuevos usuarios, así como el acceso a las bicis, las estaciones, y los tiempos de préstamos. 
 
 ![image](https://user-images.githubusercontent.com/32310867/48034026-a998b200-e12b-11e8-9e1e-729b35b37f8e.png)
@@ -105,7 +104,7 @@ Se decidió usar una app que contenga las siguientes funcionalidades:
 
 ![priorizacion](assets/docs/proto.png)
 
-[Prototipo final](#)
+[Prototipo final](https://marvelapp.com/1516j6d6/screen/40358791)
 
 ### Integrantes:
 
